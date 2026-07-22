@@ -1,0 +1,91 @@
+# Template robots.txt para Agent Readiness
+
+> Basado en el KusiAI GEO Framework v2026.2
+> Diseñado para permitir el acceso a todos los AI crawlers principales
+> mientras se protegen áreas administrativas
+
+---
+
+# AI Crawlers de Entrenamiento y Búsqueda
+
+# Anthropic - Claude
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# OpenAI - ChatGPT / GPT
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /wp-admin/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin/
+
+# OpenAI - Búsqueda
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin/
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+
+# Common Crawl - Dataset de entrenamiento
+User-agent: CCBot
+Allow: /
+Disallow: /admin/
+
+# Google - Gemini (entrenamiento)
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin/
+
+# Google Cloud - Vertex AI
+User-agent: Google-CloudVertexBot
+Allow: /
+Disallow: /admin/
+
+# Meta - LLM training
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /admin/
+
+---
+
+# Crawlers de Búsqueda Tradicional
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+---
+
+# Resto de crawlers - restricciones mínimas
+
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /private/
+Disallow: /tmp/
+
+---
+
+# Sitemaps
+
+Sitemap: https://tudominio.com/sitemap-index.xml
+Sitemap: https://tudominio.com/sitemap.xml

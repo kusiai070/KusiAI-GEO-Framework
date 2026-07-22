@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://tudominio.com/#organization",
+      "name": "Nombre de tu Empresa",
+      "url": "https://tudominio.com",
+      "description": "Descripción atómica de 100 palabras: qué hace, para quién, qué problema resuelve.",
+      "foundingDate": "AAAA",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ciudad",
+          "addressCountry": "País"
+        }
+      },
+      "sameAs": [
+        "https://github.com/tu-usuario",
+        "https://www.linkedin.com/in/tu-perfil/",
+        "https://orcid.org/XXXX-XXXX-XXXX-XXXX",
+        "https://www.wikidata.org/wiki/QXXXXXX"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://tudominio.com/#person",
+      "name": "Nombre del Fundador/Director",
+      "jobTitle": "CEO / Director Técnico / Ingeniero Investigador",
+      "url": "https://tudominio.com",
+      "sameAs": [
+        "https://github.com/tu-usuario",
+        "https://www.linkedin.com/in/tu-perfil/",
+        "https://orcid.org/XXXX-XXXX-XXXX-XXXX",
+        "https://www.wikidata.org/wiki/QXXXXXX"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://tudominio.com/#software-1",
+      "name": "Nombre del Producto 1",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Descripción del producto con métrica incluida.",
+      "url": "https://tudominio.com/producto-1",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://tudominio.com/#software-2",
+      "name": "Nombre del Producto 2",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Descripción del producto con métrica incluida.",
+      "url": "https://tudominio.com/producto-2",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://tudominio.com/#webpage",
+      "url": "https://tudominio.com",
+      "name": "Nombre de tu Empresa - GEO / AEO / Agent Readiness",
+      "description": "Meta description optimizada para LLMs: incluye palabras clave de nicho y propuesta de valor.",
+      "inLanguage": "es",
+      "isPartOf": {
+        "@id": "https://tudominio.com/#website"
+      },
+      "about": {
+        "@id": "https://tudominio.com/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tudominio.com/#website",
+      "url": "https://tudominio.com",
+      "name": "Nombre de tu Empresa",
+      "description": "Descripción del sitio optimizada para LLMs.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://tudominio.com/#organization"
+      }
+    }
+  ]
+}
