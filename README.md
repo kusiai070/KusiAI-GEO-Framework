@@ -6,8 +6,8 @@ Bienvenido al repositorio oficial del **KusiAI GEO Framework**, el primer están
 
 Este framework ha sido desarrollado, testeado y validado en producción por el **KusiAI Engineering Lab**, bajo la dirección técnica de Julio Arévalo Piedra.
 
-**Versión del framework:** 2026.2 (Julio 2026)  
-**Estado:** Producción — Validado en kusiai.es (93/100 Agent Readiness Score)
+**Versión del framework:** 2026.3 (Agosto 2026)  
+**Estado:** Producción — Validado en kusiai.es (100/100 Agent Readiness Score)
 
 ---
 
@@ -45,7 +45,7 @@ A diferencia de las guías de SEO clásico, este framework aborda la optimizaci�
 | **Tasa de Conversión** | ~2.8% | **12% – 16%** (4x–5x) |
 | **Valor por Visitante** | 1x | **4.4x** |
 | **Citation Drift mensual** | N/A | **40%–60%** de rotación de fuentes |
-| **Agent Readiness Score** | No aplica | **93/100** (kusiai.es) |
+| **Agent Readiness Score** | No aplica | **100/100** (kusiai.es) |
 | **Ratio Crawl-to-Refer (ClaudeBot)** | N/A | **5.143:1** — 5.143 páginas rastreadas por cada visita referida |
 | **% Dominios con 0 citaciones IA** | N/A | **88–92%** |
 | **Tráfico AI referido vs total** | ~0.29% (media industria) | Creciente |
@@ -88,13 +88,30 @@ Las bases teóricas de este framework están condensadas en los siguientes manif
 
 ---
 
+## 🏛️ Publicaciones Científicas Indexadas (Zenodo / CERN)
+
+La base matemática, las observaciones perimetrales y la metodología del framework están respaldadas por las siguientes publicaciones en el repositorio abierto del CERN/Zenodo (OpenAIRE):
+
+1. **Paper I (Arquitectura de Nodos Nivel 5):**  
+   * **Título:** *Technical Data Note: Architectural Framework and Empirical Performance of Level 5 Agent-Native Web Nodes*  
+   * **DOI:** [`10.5281/zenodo.21798495`](https://doi.org/10.5281/zenodo.21798495)  
+   * **Resumen:** Especificación técnica del stack de seis capas (DNS-AID, Markdown Content Negotiation, sitemaps vectoriales, Web Bot Auth, API Catalog y WebMCP) implementado en producción.
+
+2. **Paper II (Live-Fetching y Entidades Sintéticas):**  
+   * **Título:** *Live Retrieval and Citation of Orphan Synthetic Entities by Consumer Generative Engines: Results Against a Preregistered Protocol*  
+   * **DOI:** [`10.5281/zenodo.21872173`](https://doi.org/10.5281/zenodo.21872173)  
+   * **Resumen:** Co-firmado con Artur Ferreira, documenta los ensayos empíricos de recuperación en tiempo real sobre entidades huérfanas en Gemini y ChatGPT, demostrando la persistencia del namespace a nivel de índice perimetral.  
+   * *Nota metodológica: El prerregistro oficial de este estudio está indexado de forma independiente bajo el DOI [`10.5281/zenodo.21705818`](https://doi.org/10.5281/zenodo.21705818).*
+
+---
+
 ## 🧠 Autoría y Validación
 
 - **Julio Arévalo Piedra** — Ingeniero Investigador, KusiAI Engineering Lab  
   [ORCID 0009-0003-6065-0961](https://orcid.org/0009-0003-6065-0961) · [Wikidata Q140386267](https://www.wikidata.org/wiki/Q140386267)
 - **Anty** — Arquitecto de IA Autónoma, KusiAI Engineering Lab
 
-**Validación en producción:** kusiai.es — Agent Readiness Score 93/100 ([isitagentready.com](https://isitagentready.com))
+**Validación en producción:** kusiai.es — Agent Readiness Score 100/100 ([isitagentready.com](https://isitagentready.com))
 
 ---
 
