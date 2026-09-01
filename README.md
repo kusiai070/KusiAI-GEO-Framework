@@ -13,10 +13,16 @@ Este framework ha sido desarrollado, testeado y validado en producción por el *
 
 ## 🚀 ¿Por qué existe este Framework?
 
-El SEO tradicional (optimizar para clics azules en Google) está colapsando. La información en la web moderna es procesada, sintetizada y respondida directamente por **los dos grandes bloques geopolíticos de Inteligencia Artificial (EE.UU. y China)**:
+El SEO tradicional (optimizar para clics azules en Google) está colapsando. La información en la web moderna es procesada, sintetizada y respondida directamente por **los 6 grandes Motores de Búsqueda Generativa (El Doble Eje EE.UU. vs. China)**:
 
-*   **Eje Occidental (EE.UU.):** OpenAI (ChatGPT Search / GPT-4o), Google (Gemini 1.5/2.0), Anthropic (Claude 3.5/3.7 Sonnet) y Perplexity AI.
-*   **Eje Oriental / Open-Weights (China):** DeepSeek (V3 / R1 Reasoner), Alibaba Cloud (Qwen 2.5 / Max) y Moonshot AI (Kimi K1.5).
+*   **Eje Occidental (EE.UU.):**
+    1. **OpenAI ChatGPT Search:** Síntesis y rastreo web en tiempo real.
+    2. **Google Gemini:** AI Overviews y Google Knowledge Graph.
+    3. **Perplexity AI:** RAG conversacional multi-fuente.
+*   **Eje Oriental (China):**
+    4. **DeepSeek (V3 / R1):** Razonamiento profundo y extracción de entidades.
+    5. **Alibaba Cloud Qwen:** Búsqueda y recuperación masiva multilingüe.
+    6. **Moonshot AI Kimi:** Búsqueda generativa de contexto ultra-largo.
 
 Nuestra investigación forense ha demostrado que **entre el 88% y el 92% de los dominios con SEO activo reciben cero citaciones de IA** en sus respectivos nichos (fuente: análisis de Citation Share en 14 industrias B2B, KusiAI Lab, 2026). Más del 20% de las webs son directamente invisibles para los crawlers de IA debido a bloqueos de WAF (el "Escándalo Cloudflare" y sus falsos positivos 403), falta de estructuración atómica y opacidad semántica frente a arquitecturas RAG.
 
