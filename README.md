@@ -66,6 +66,14 @@ Las bases teóricas de este framework están condensadas en los siguientes manif
 | 05 | [FAQ GEO y Agent Readiness 2026](docs/05-preguntas-frecuentes-geo-agent-readiness-2026.md) | Preguntas clave de CTOs y CMOs |
 | **06** | **[NUEVO] WAF Bypass Playbook** | Configuración forense paso a paso para desbloquear AI crawlers en Cloudflare |
 | **07** | **[NUEVO] Papers y Evidencia 2026** | SafeGEO, Incumbent Advantage, GEO at Scale — análisis de literatura académica |
+| **08** | **[BENCHMARK] [AI Retrieval Benchmark 2026](benchmarks/AI_RETRIEVAL_BENCHMARK_2026.md)** | Estudio empírico de 1.000 prompts en 5 LLMs, cálculo de CSR y Cross-Provider Variance (CPV) |
+
+---
+
+## 🔬 Herramientas de Medición Abiertas
+
+* **Calculadora de Citation Share:** [`benchmarks/scripts/calculate_citation_share.py`](benchmarks/scripts/calculate_citation_share.py) - Script CLI en Python para calcular Citation Selection Rate (CSR) y Cross-Provider Variance (CPV).
+* **Dataset de Evaluación:** [`benchmarks/data/commercial_queries_sample_1000.json`](benchmarks/data/commercial_queries_sample_1000.json) - Muestra de queries comerciales de prueba.
 
 ---
 
