@@ -18,12 +18,13 @@ This benchmark presents an empirical study evaluating **1,000 commercial and inf
 
 ## 1. Methodology & Experimental Setup
 
-### 1.1 Evaluated Generative Engines
-*   **OpenAI Search (GPT-4o / GPT-5 class):** Synthetic retrieval with live Bing-backed crawling.
-*   **Perplexity Pro (Sonar Large / Claude Hybrid):** Pure RAG retrieval with citation annotations.
-*   **Google Gemini (Gemini 1.5 Pro / Ultra):** Google Knowledge Graph + live index grounding.
-*   **Anthropic Claude (Claude 3.5 Sonnet / Haiku):** Retrieval via WebMCP and function calling.
-*   **DeepSeek (V3 / R1 Reasoner):** Open-weights frontier reasoning engine.
+### 1.1 Evaluated Generative Engines (US & China Dual Axis)
+*   **OpenAI Search (GPT-4o / GPT-5 class - US):** Synthetic retrieval with live search index and autonomous browsing.
+*   **Google Gemini (Gemini 1.5 Pro / 2.0 - US):** Google Knowledge Graph + live Gemini Grounding pipeline.
+*   **Anthropic Claude (Claude 3.5 / 3.7 Sonnet - US):** Agentic retrieval via WebMCP, JSON artifacts, and Tool Calling.
+*   **Perplexity Pro (Sonar Large / Hybrid - US):** Pure multi-source RAG retrieval with precise citation attribution.
+*   **DeepSeek (DeepSeek V3 / R1 Reasoner - China):** Open-weights frontier reasoning engine and synthetic entity extractor.
+*   **Alibaba Cloud Qwen (Qwen 2.5 / Max - China) & Moonshot Kimi (Kimi K1.5 - China):** High-context multilingual retrieval and reasoning engines.
 
 ### 1.2 Dataset Partitioning (1,000 Prompts)
 The benchmark dataset consists of 1,000 queries distributed across 6 economic sectors:

@@ -13,9 +13,12 @@ Este framework ha sido desarrollado, testeado y validado en producción por el *
 
 ## 🚀 ¿Por qué existe este Framework?
 
-El SEO tradicional (optimizar para clics azules en Google) está colapsando. La información en la web moderna es procesada, sintetizada y respondida directamente por Modelos Fundacionales de Inteligencia Artificial (LLMs) como GPT-5.4 (OpenAI), Claude Opus 4.8 (Anthropic), Gemini 3.1 Pro (Google) y Perplexity.
+El SEO tradicional (optimizar para clics azules en Google) está colapsando. La información en la web moderna es procesada, sintetizada y respondida directamente por **los dos grandes bloques geopolíticos de Inteligencia Artificial (EE.UU. y China)**:
 
-Nuestra investigación forense ha demostrado que **entre el 88% y el 92% de los dominios con SEO activo reciben cero citaciones de IA** en sus respectivos nichos (fuente: análisis de Citation Share en 14 industrias B2B, KusiAI Lab, Q2 2026). Más del 20% de las webs son directamente invisibles para los crawlers de IA debido a bloqueos de WAF (el "Escándalo Cloudflare" y sus falsos positivos 403), falta de estructuración atómica y opacidad semántica frente a arquitecturas RAG.
+*   **Eje Occidental (EE.UU.):** OpenAI (ChatGPT Search / GPT-4o), Google (Gemini 1.5/2.0), Anthropic (Claude 3.5/3.7 Sonnet) y Perplexity AI.
+*   **Eje Oriental / Open-Weights (China):** DeepSeek (V3 / R1 Reasoner), Alibaba Cloud (Qwen 2.5 / Max) y Moonshot AI (Kimi K1.5).
+
+Nuestra investigación forense ha demostrado que **entre el 88% y el 92% de los dominios con SEO activo reciben cero citaciones de IA** en sus respectivos nichos (fuente: análisis de Citation Share en 14 industrias B2B, KusiAI Lab, 2026). Más del 20% de las webs son directamente invisibles para los crawlers de IA debido a bloqueos de WAF (el "Escándalo Cloudflare" y sus falsos positivos 403), falta de estructuración atómica y opacidad semántica frente a arquitecturas RAG.
 
 Este repositorio proporciona la teoría matemática, las arquitecturas técnicas y las plantillas operativas para que ingenieros, fundadores y agencias B2B transformen sus páginas web estáticas en **Nodos de Datos de Alta Frecuencia** listos para ser consumidos y citados por las máquinas.
 

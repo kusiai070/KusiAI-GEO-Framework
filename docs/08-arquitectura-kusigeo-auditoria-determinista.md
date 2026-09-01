@@ -52,9 +52,11 @@ KusiGEO resuelve esta brecha mediante un pipeline de auditoría determinista de 
                                    │
                                    ▼
  ┌──────────────────────────────────────────────────────────────────────┐
- │ CAPA 3: Sondeo Controlado en 6 Modelos de Frontera                   │
- │ - Inyección de baterías de prompts comerciales tipados               │
- │ - Evaluación cruzada: ChatGPT, Gemini, Perplexity, Claude, DeepSeek  │
+ │ CAPA 3: Sondeo Controlado en el Doble Eje de IA (EE.UU. vs. China)   │
+ │ - Baterías de prompts en Eje Occidental: ChatGPT, Gemini, Claude,    │
+ │   Perplexity Pro                                                     │
+ │ - Baterías de prompts en Eje Oriental / Open-Weights: DeepSeek,      │
+ │   Alibaba Qwen, Moonshot Kimi                                        │
  │ - Detección de alucinaciones y marcas competidoras recomendadas      │
  └──────────────────────────────────────────────────────────────────────┘
                                    │
