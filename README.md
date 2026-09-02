@@ -76,7 +76,8 @@ Las bases teóricas de este framework están condensadas en los siguientes manif
 | **06** | **[NUEVO] WAF Bypass Playbook** | Configuración forense paso a paso para desbloquear AI crawlers en Cloudflare |
 | **07** | **[NUEVO] Papers y Evidencia 2026** | SafeGEO, Incumbent Advantage, GEO at Scale — análisis de literatura académica |
 | **08** | **[NUEVO] [Arquitectura KusiGEO: Auditoría Determinista](docs/08-arquitectura-kusigeo-auditoria-determinista.md)** | Pipeline de 4 capas, observabilidad en LLMs y cálculo de Citation Share |
-| **09** | **[BENCHMARK] [AI Retrieval Benchmark 2026](benchmarks/AI_RETRIEVAL_BENCHMARK_2026.md)** | Estudio empírico de 1.000 prompts en 5 LLMs, cálculo de CSR y Cross-Provider Variance (CPV) |
+| **09** | **[NUEVO] [Manual Anti-Placebo: Evidencia Científica de GEO](docs/09-manual-anti-placebo-evidencia-geo.md)** | Síntesis de ACM SIGKDD 2024, efecto democratizador (+115%) y límites del GEO |
+| **10** | **[BENCHMARK] [AI Retrieval Benchmark 2026](benchmarks/AI_RETRIEVAL_BENCHMARK_2026.md)** | Estudio empírico de 1.000 prompts en los 6 LLMs, cálculo de CSR y Cross-Provider Variance (CPV) |
 
 ---
 
