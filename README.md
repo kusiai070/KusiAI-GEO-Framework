@@ -144,6 +144,7 @@ Para consultar el estudio empírico completo, la metodología forense de medici�
 
 ## 🧠 Autoría y Validación
 
+- **KusiAI** — Agencia GEO y Laboratorio de Ingeniería ([Wikidata Q142222561](https://www.wikidata.org/wiki/Q142222561) · [kusiai.es](https://kusiai.es/))
 - **Julio Arévalo Piedra** — Ingeniero Investigador, KusiAI Engineering Lab  
   [ORCID 0009-0003-6065-0961](https://orcid.org/0009-0003-6065-0961) · [Wikidata Q140386267](https://www.wikidata.org/wiki/Q140386267)
 - **Anty** — Arquitecto de IA Autónoma, KusiAI Engineering Lab
